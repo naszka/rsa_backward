@@ -1,0 +1,17 @@
+/Users/knaszad/supplementary/rsa_backward/rsa_data.py:249: RuntimeWarning: invalid value encountered in true_divide
+  return np.nan_to_num(speaker_dist/ denom)
+/Users/knaszad/supplementary/rsa_backward/rsa_data.py:258: RuntimeWarning: divide by zero encountered in log
+  with_cost_dist = np.log(listener_dist) - costs[np.newaxis, :]
+/Users/knaszad/supplementary/amortized-rsa/shapeworld.py:107: ShapelyDeprecationWarning: The array interface is deprecated and will no longer work in Shapely 2.0. Convert the '.coords' to a numpy array instead.
+  self.init_shape()
+tensor(1.1656, grad_fn=<NllLossBackward0>)
+tensor(1.1655, grad_fn=<NllLossBackward0>)
+tensor(1.2448, grad_fn=<NllLossBackward0>)
+Traceback (most recent call last):
+  File "train_models.py", line 136, in <module>
+    rsa_loss.backward()
+  File "/Users/knaszad/opt/anaconda3/envs/dev_env/lib/python3.8/site-packages/torch/_tensor.py", line 352, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/Users/knaszad/opt/anaconda3/envs/dev_env/lib/python3.8/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
