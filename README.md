@@ -6,7 +6,7 @@ Learning in the RSA model backwards
         2. clone https://github.com/naszka/amortized-rsa.git main branch
 	     This  fork has some commits that are necessary to make this repository work.
 
-	2. Put ./amortized_rsa on your PYTHONPATH
+	3. Put ./amortized_rsa on your PYTHONPATH
 	~~~
 	export PYTHONPATH=/path/to/here/amortized_rsa:$PYTHONPATH
 	~~~
